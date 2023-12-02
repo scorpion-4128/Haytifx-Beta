@@ -1,66 +1,65 @@
 {
   "project_info": {
-    "project_number": "718154706857",
-    "firebase_url": "https://le-roi-cine-default-rtdb.firebaseio.com",
-    "project_id": "le-roi-cine",
-    "storage_bucket": "le-roi-cine.appspot.com"
+    "project_number": "491813804792",
+    "firebase_url": "https://haytifx-beta-default-rtdb.firebaseio.com",
+    "project_id": "haytifx-beta",
+    "storage_bucket": "haytifx-beta.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718154706857:android:ef7ba2f634315878149eb8",
+        "mobilesdk_app_id": "1:491813804792:android:4dc7d4f79bb9bd27cef90d",
         "android_client_info": {
           "package_name": "com.home.movieappclient"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDyvO4Pd6ltaf1MewuuWVOLB8-_OvHBMDs"
+          "current_key": "AIzaSyDWpR9PnGnCw8z7EmjNV1BNHZ6Kp4OoQgk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:718154706857:android:daa8c3bf61c2f27b149eb8",
+        "mobilesdk_app_id": "1:491813804792:android:1b618888ed60370bcef90d",
         "android_client_info": {
-          "package_name": "com.home.movieappserverside"
+          "package_name": "com.home.movieappserver"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDyvO4Pd6ltaf1MewuuWVOLB8-_OvHBMDs"
+          "current_key": "AIzaSyDWpR9PnGnCw8z7EmjNV1BNHZ6Kp4OoQgk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491813804792:android:0487d04054ee4bdacef90d",
+        "android_client_info": {
+          "package_name": "com.home.movieappserverside"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWpR9PnGnCw8z7EmjNV1BNHZ6Kp4OoQgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }
