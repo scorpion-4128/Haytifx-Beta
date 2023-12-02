@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "718154706857",
+    "firebase_url": "https://le-roi-cine-default-rtdb.firebaseio.com",
+    "project_id": "le-roi-cine",
+    "storage_bucket": "le-roi-cine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718154706857:android:ef7ba2f634315878149eb8",
+        "android_client_info": {
+          "package_name": "com.home.movieappclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvO4Pd6ltaf1MewuuWVOLB8-_OvHBMDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718154706857:android:daa8c3bf61c2f27b149eb8",
+        "android_client_info": {
+          "package_name": "com.home.movieappserverside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvO4Pd6ltaf1MewuuWVOLB8-_OvHBMDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718154706857-i1lvis7jlo82mn4m1n4cl5j6tdfv2hrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
