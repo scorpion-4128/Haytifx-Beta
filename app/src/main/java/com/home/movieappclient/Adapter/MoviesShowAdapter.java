@@ -23,6 +23,7 @@ public class MoviesShowAdapter extends RecyclerView.Adapter<MoviesShowAdapter.My
     private Context mContext ;
     private List<GetVideoDetails> uploads ;
     MovieItemClickListenerNew movieItemClickListenerNew;
+    private List<GetVideoDetails> movieList;
 
     public MoviesShowAdapter(Context mContext, List<GetVideoDetails> uploads, MovieItemClickListenerNew listener) {
         this.mContext = mContext;
@@ -54,6 +55,10 @@ public class MoviesShowAdapter extends RecyclerView.Adapter<MoviesShowAdapter.My
     @Override
     public int getItemCount() {
         return uploads.size();
+    }
+
+    public void setMovieList(List<GetVideoDetails> movieList) {
+        this.movieList = movieList;
     }
 
     public  class MyViewHolder extends RecyclerView.ViewHolder {

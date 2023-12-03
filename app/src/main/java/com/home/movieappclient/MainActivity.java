@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
     private List<GetVideoDetails> uploads, uploadsListlatest,uploadsListpopular;
     private List<GetVideoDetails> actionmovies, sportmovies,comedymovies,romanticmovies,
             advanturemovies, animatedforadultsmovies, horrormovies, martialartsmovies, sciencefictionmovies,
-    thrillmovies, surnaturalmovies, serieMovies;
+            thrillmovies, surnaturalmovies, serieMovies;
 
     private ViewPager sliderpager;
     private List<SliderSide> uploadsslider ;
@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-       getSupportActionBar().setCustomView(R.layout.actionbar);
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.actionbar);
 
         progressDialog = new ProgressDialog(this);
         iniViews();
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
         sciencefictionmovies=new ArrayList<>();
         serieMovies=new ArrayList<>();
         surnaturalmovies=new ArrayList<>();
-       thrillmovies=new ArrayList<>();
+        thrillmovies=new ArrayList<>();
 
 
         mDatabaserefence = FirebaseDatabase.getInstance().getReference("videos");
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
                     }  if(upload.getVideo_category().equals("Comedy")){
                         comedymovies.add(upload);
                     }
-                   else if(upload.getVideo_category().equals("Romantic")) {
+                    else if(upload.getVideo_category().equals("Romantic")) {
                         romanticmovies.add(upload);
                     } if(upload.getVideo_category().equals("Horror")){
                         sportmovies.add(upload);
@@ -306,7 +306,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
         startActivity(intent,options.toBundle());
     }
 
-   public class SliderTimer extends TimerTask {
+    public class SliderTimer extends TimerTask {
 
 
         @Override
